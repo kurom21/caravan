@@ -28,7 +28,7 @@ position: relative;
 .social i {
   display: inline-block;
   margin-left: 20px;
-  
+
 }
 
 .social {
@@ -68,7 +68,6 @@ header .heading {
   background-color: rgba(0,0,0,0.5);
   text-align: center;
   padding-top: 105px;
-
 }
 
 .main-visual-text {
@@ -157,7 +156,7 @@ main{
   background-color: #acabab;
   border-radius: 3px;
   line-height: 30px;
-  
+
 }
 .sidebar {
   width: 230px;
@@ -168,12 +167,12 @@ main{
   border-bottom: 8px solid #f7f7f7;
   text-align: center;
   line-height: 0.6;
-  
+
 }
 
 .sidebar-contents {
   padding: 50px 0;
-  
+
 }
 
 .popular-text,
@@ -181,7 +180,7 @@ main{
   padding-bottom: 5px;
   border-bottom: 1px solid #f7f7f7;
   margin-bottom: 5px;
-  
+
 }
 
 .popular-text:last-child,
@@ -189,13 +188,13 @@ main{
   margin: 0;
   padding: 0;
   border: none;
-  
+
 }
 
 .instagram .sidebar-contents {
   display: flex;
   flex-wrap: wrap;
-  
+
 }
 
 .instagram-box {
@@ -204,8 +203,8 @@ main{
   background-size: cover;
   background-position: center;
   margin-bottom: 10px;
-  
-  
+
+
 }
 
 .instagram-box:nth-child(odd) {
@@ -214,12 +213,12 @@ main{
 
 .instagram-box:nth-child(1) {
   background-image: url(img/airport.jpg);
-  
+
 }
 
 .instagram-box:nth-child(2) {
   background-image: url(img/japan.jpg);
-  
+
 }
 
 .instagram-box:nth-child(3) {
@@ -248,4 +247,69 @@ footer {
 
 .footer-text {
   color:#fff;
+}
+
+@media screen and (max-width: 425px) {
+
+   header {
+    width: 100%;
+   }
+
+   .nav-list {
+     width: 100%;
+   }
+
+   .nav-list-item {
+     width: 100%;
+   }
+
+   .main-visual-content {
+     width: 100%
+   }
+
+    main {
+     width: 100%;
+     display: block;
+   }
+
+   .blog {
+    width: 100%;
+   }
+
+  .blog-box {
+    padding-left: 2%;
+    padding-right: 2%;
+   }
+
+  .blog-image {
+    width: 49%;
+   }
+
+  .blog-text {
+    width: 49%;
+    padding-top: 5px;
+   }
+
+  .sidebar {
+    width: 100%;
+   }
+
+  .sidebar-contents {
+    padding-left: 3%;
+    padding-right: 3%;
+   }
+
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+   }
+
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+   }
+
+  .pagination {
+    margin-bottom: 50px;
+   }
+
 }
